@@ -1,0 +1,1 @@
+# azure-australia-east-repository
