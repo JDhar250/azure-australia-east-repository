@@ -1,0 +1,9 @@
+{
+	"name": "azureaustraliafactory",
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1662fcdb-2f43-4b57-914a-53d33a13d128",
+		"tenantId": "058e4648-2a32-4b84-8cd8-c317af7adda8"
+	}
+}
