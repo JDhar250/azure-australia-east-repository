@@ -1,0 +1,17 @@
+{
+	"name": "FileLocation",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\Users\\Lenovo\\OneDrive\\Documents\\Projects\\Azure DE - End to End\\CRM+Sales+Opportunities",
+			"userId": "lenovo",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmYjRmY2I3Ny05YzE2LTRmNjItYTUwMS1mMzZlZjI0MzRjMGIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "OnPremtoAzureintegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
