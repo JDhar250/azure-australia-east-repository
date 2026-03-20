@@ -740,8 +740,8 @@
 								},
 								"sink": {
 									"name": "SalesOrderNumber",
-									"type": "Int32",
-									"physicalType": "int"
+									"type": "String",
+									"physicalType": "varchar"
 								}
 							},
 							{
