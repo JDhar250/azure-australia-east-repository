@@ -5,8 +5,6 @@
 			{
 				"name": "Copy_Region",
 				"type": "Copy",
-				"state": "Inactive",
-				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [],
 				"policy": {
 					"timeout": "0.12:00:00",
@@ -96,8 +94,6 @@
 			{
 				"name": "Copy_Product",
 				"type": "Copy",
-				"state": "Inactive",
-				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "Copy_Region",
@@ -390,8 +386,6 @@
 			{
 				"name": "Copy_Salesperson",
 				"type": "Copy",
-				"state": "Inactive",
-				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "Copy_Reseller",
@@ -512,8 +506,6 @@
 			{
 				"name": "Copy_SalespersonRegion",
 				"type": "Copy",
-				"state": "Inactive",
-				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "Copy_Salesperson",
@@ -598,8 +590,6 @@
 			{
 				"name": "Copy_Targets",
 				"type": "Copy",
-				"state": "Inactive",
-				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "Copy_SalespersonRegion",
