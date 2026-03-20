@@ -1,0 +1,23 @@
+{
+	"name": "ds_HttpSales",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_httpGithub",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "azure-australia-east-repository/refs/heads/main/SourceAdvWorks/Sales.csv"
+			},
+			"columnDelimiter": "\t",
+			"rowDelimiter": "\n",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
