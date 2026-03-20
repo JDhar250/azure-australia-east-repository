@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADFAdventureWorksJdhar250"
+		},
+		"ls_AzureSQL_password": {
+			"value": ""
+		},
+		"ls_adlssource_accountKey": {
+			"value": ""
+		},
+		"ls_AzureSQL_properties_typeProperties_server": {
+			"value": "adsrvadventureworks.database.windows.net"
+		},
+		"ls_AzureSQL_properties_typeProperties_database": {
+			"value": "ASDbAdventureWorks"
+		},
+		"ls_AzureSQL_properties_typeProperties_userName": {
+			"value": "jdadmin"
+		},
+		"ls_adlssource_properties_typeProperties_url": {
+			"value": "https://adlsadventureproject.dfs.core.windows.net/"
+		},
+		"ls_httpGithub_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/JDhar250/"
+		}
+	}
+}
