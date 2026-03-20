@@ -1,0 +1,16 @@
+{
+	"name": "ds_azuresqlSalespersonRegion",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_AzureSQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "SalespersonRegion"
+		}
+	}
+}
