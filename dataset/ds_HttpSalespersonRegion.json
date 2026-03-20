@@ -1,0 +1,23 @@
+{
+	"name": "ds_HttpSalespersonRegion",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_httpGithub",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "azure-australia-east-repository/refs/heads/main/SourceAdvWorks/SalespersonRegion.csv"
+			},
+			"columnDelimiter": "\t",
+			"rowDelimiter": "\n",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
