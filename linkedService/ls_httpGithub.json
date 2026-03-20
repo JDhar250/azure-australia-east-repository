@@ -5,11 +5,11 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://github.com/JDhar250",
+			"url": "https://github.com/JDhar250/",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Basic",
 			"userName": "jdhar250",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDA2NkQxMzhELUMyN0YtNDMzNC1CNTA3LTJFMUE4NTRCRUUyRF8xMjNkN2IyMS0zNTU4LTRmZDQtOTc2OS05NTMwOWVkMTM1M2UiDQp9"
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDA2NkQxMzhELUMyN0YtNDMzNC1CNTA3LTJFMUE4NTRCRUUyRF84YTQ0OTgzOC04MjI1LTRjMTktODQ1MC0yOWQzZmE0YmM2N2YiDQp9"
 		}
 	}
 }
