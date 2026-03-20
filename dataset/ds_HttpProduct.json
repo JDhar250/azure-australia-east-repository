@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "azure-australia-east-repository/refs/heads/main/SourceAdvWorks/Region.csv"
+				"relativeUrl": "azure-australia-east-repository/refs/heads/main/SourceAdvWorks/Product.csv"
 			},
 			"columnDelimiter": "\t",
 			"rowDelimiter": "\n",
