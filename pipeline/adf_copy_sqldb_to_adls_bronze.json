@@ -1,5 +1,5 @@
 {
-	"name": "copy_sqldb_to_adls_bronze",
+	"name": "adf_copy_sqldb_to_adls_bronze",
 	"properties": {
 		"activities": [
 			{
@@ -38,7 +38,18 @@
 								"sink": {
 									"type": "DelimitedTextSink",
 									"storeSettings": {
-										"type": "AzureBlobFSWriteSettings"
+										"type": "AzureBlobFSWriteSettings",
+										"metadata": [
+											{
+												"value": ""
+											},
+											{
+												"value": ""
+											},
+											{
+												"value": ""
+											}
+										]
 									},
 									"formatSettings": {
 										"type": "DelimitedTextWriteSettings",
