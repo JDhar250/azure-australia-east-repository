@@ -13,7 +13,7 @@
 	},
 	"resources": [
 		{
-			"name": "[concat(parameters('factoryName'), '/copy_sqldb_to_adls_bronze')]",
+			"name": "[concat(parameters('factoryName'), '/adf_copy_sqldb_to_adls_bronze')]",
 			"type": "Microsoft.DataFactory/factories/pipelines",
 			"apiVersion": "2018-06-01",
 			"properties": {
