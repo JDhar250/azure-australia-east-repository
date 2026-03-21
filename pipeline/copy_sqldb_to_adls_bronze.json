@@ -85,8 +85,16 @@
 		],
 		"variables": {
 			"tableName": {
-				"type": "String",
-				"defaultValue": "[\"Product\",\"Region\",\"Reseller\",\"Sales\",\"Salesperson\",\"SalespersonRegion\",\"Targets\"]"
+				"type": "Array",
+				"defaultValue": [
+					"Product",
+					"Region",
+					"Reseller",
+					"Sales",
+					"Salesperson",
+					"SalespersonRegion",
+					"Targets"
+				]
 			}
 		},
 		"annotations": []
